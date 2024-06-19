@@ -5,7 +5,6 @@ import {Typography, Box, Button, Fade, Stepper, Step, StepLabel, Grid, Avatar} f
 import {useNavigate} from "react-router-dom";
 import {useEffect, useRef, useState} from "react";
 import Participants from "./Participants";
-import React from 'react';
 import PropTypes from 'prop-types';
 
 export default function Stage1(props) {
