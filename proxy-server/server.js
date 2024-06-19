@@ -17,4 +17,5 @@ app.use('/', createProxyMiddleware(options));
 const PORT = 3001;
 app.listen(PORT, () => {
     console.log(`Proxy server is running on port ${PORT} and forwarding to http://localhost:8080`);
+    console.log(`*******************************************************************************`);
 });
